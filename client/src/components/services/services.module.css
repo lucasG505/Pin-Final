@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+}
+
+.acordeon {
+    flex: 1;
+}
+
+.imageContainer {
+    flex: 1;
+    /* Ocupa todo el espacio disponible */
+    display: flex;
+    justify-content: center;
+    /* Centra la imagen horizontalmente */
+    align-items: center;
+    /* Centra la imagen verticalmente */
+}
+
+.imageContainer img{
+    width: 100%;
+}
+
+.acordeonItem {
+    border-bottom: 1px solid #ccc;
+    /* Línea divisoria entre los elementos del acordeón */
+}
+
+.acordeonTitle h3 {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    /* Color de fondo del título */
+    border-top: 1px solid #ccc;
+    /* Línea divisoria entre los títulos */
+}
+
+.acordeonContent {
+    padding: 10px;
+    background-color: #fff;
+    /* Color de fondo del contenido */
+}

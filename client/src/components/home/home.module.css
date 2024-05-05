@@ -1,0 +1,98 @@
+.mainContainer {
+    width: 100%;
+    height: 800px;
+    background-image: url("../../assets/galeria/home.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: none;
+    padding: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainer h1 {
+    font-size: 2.5rem;
+    /* Tamaño de fuente */
+    font-weight: bold;
+    /* Grosor de la fuente */
+    color: #ffff;
+    /* Color del texto */
+    text-align: center;
+}
+
+.mainContainer p {
+    font-size: 1rem;
+    /* Tamaño de fuente */
+    font-weight: bold;
+    /* Grosor de la fuente */
+    color: #ffff;
+    /* Color del texto */
+    text-align: center;
+    /* Alineación del texto */
+    padding-top: 100px;
+}
+
+.mainContainer button {
+    display: inline-block;
+    padding: 10px 20px;
+    /* Espacio dentro del botón */
+    font-size: 1rem;
+    /* Tamaño de la fuente */
+    font-weight: bold;
+    /* Grosor de la fuente */
+    color: #fff;
+    /* Color del texto */
+    background-color: #007bff;
+    /* Color de fondo del botón */
+    border: none;
+    /* Sin borde */
+    border-radius: 25px;
+    /* Borde redondeado */
+    cursor: pointer;
+    /* Cambia el cursor al pasar por encima */
+    text-align: center;
+    /* Alinea el texto al centro */
+    text-decoration: none;
+    /* Sin subrayado */
+    transition: background-color 0.3s;
+}
+
+.mainContainer button:hover {
+    background-color: #0056b3;
+    /* Cambia el color de fondo al pasar el cursor */
+}
+
+.info{
+    width: 100%;
+    height: 500px;
+    margin: none;
+    padding: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: justify;
+}
+
+.info h2{
+    font-size: 2rem;
+    /* Tamaño de fuente */
+    font-weight: bold;
+    /* Grosor de la fuente */
+    color: #0056b3;
+    /* Color del texto */
+    text-align: center;
+}
+
+.info p{
+    font-size: 1rem;
+    /* Tamaño de fuente */
+    font-weight: bold;
+    /* Grosor de la fuente */
+    color: #007bff;
+    /* Color del texto */
+    text-align: center;
+    /* Alineación del texto */
+    padding-top: 100px;
+}

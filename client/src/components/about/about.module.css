@@ -1,0 +1,57 @@
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background-image: linear-gradient(to bottom,#007bff,#0056b3);
+  }
+  
+  .MainContainer h2 {
+    color: #000;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3rem;
+    
+  }
+  .BlockContainer{
+    height: 110vh;
+    width: 50vw;
+    box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    /* background-image: linear-gradient(160deg, #ffff 50%, #ffc300 50%, #ffc300); */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .TextBlock {
+    color: #000;
+    font-family: 'Montserrat-Light';
+    font-weight: 500;
+    font-size: 1.8rem;
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 1rem;
+    line-height: 1.5;
+  }
+  
+  
+  @media screen and (max-width: 414px) {
+    .BlockContainer {
+      width: 95vw;
+      height: fit-content
+    }
+  
+    .TextBlock {
+      font-size: 1.2rem;
+      text-align-last: left;
+      text-align: justify;
+      hyphens: auto;
+    }
+  
+  }
+  
